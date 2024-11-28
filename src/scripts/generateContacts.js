@@ -1,5 +1,5 @@
-import { readContacts } from '../utils/readContacts';
-import { writeContacts } from '../utils/writeContacts';
+import { readContacts } from '../utils/readContacts.js';
+import { writeContacts } from '../utils/writeContacts.js';
 import { createFakeContact } from '../utils/createFakeContact.js';
 
 const generateContacts = async (number) => {
